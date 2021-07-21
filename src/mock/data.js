@@ -30,7 +30,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'React restaurant.jpeg',
     title: 'React restaurant',
-    info: 'A food order app built by Reactjs. Main features: Choose and order food on an available menu; FETCH and POST data to a realtime database.',
+    info: 'A food order app built by Reactjs. Main features: Choose and order food on an available menu; GET and POST data to a realtime database.',
     info2: '#functional-based-components, #react-context, #realtime-database',
     url: 'https://react-restaurant-3dd93.firebaseapp.com/',
     repo: 'https://github.com/haunguyen1064/React-restaurant', // if no repo, the button will not show up
