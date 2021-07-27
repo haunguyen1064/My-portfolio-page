@@ -1,3 +1,4 @@
+import React from "react";
 import { nanoid } from 'nanoid';
 
 // HEAD DATA
@@ -21,17 +22,37 @@ export const aboutData = {
   paragraphOne: "Hey! My full name is Nguyễn Thanh Hậu, I was born and grown up in Tây Ninh province and now I've worked at HCMC.",
   paragraphTwo: "I made a career change because I love how technology changes the world such as we can do many things while we're staying at home, how we transfer money, book a car, or streaming media through applications...etc. Technology makes our lives easier!",
   paragraphThree: "Besides technology, I like running as well. This is the best way to reach and break your limitation. It's so great when you set a goal, keep training day by day, overcome the pain and finally achieve your goal. I recommend everyone should do exercise often, do any kind of exercise you want, not only running, you will love it!!!",
-  paragraphFour: "For more detail, please find my resume attached below:",
+  paragraphFour: "For more detail, please find my resume by clicking the button below.",
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
+const projectOneMainFeatures = <> A food order app built by Reactjs. <br /> 
+                                  Main features:
+                                <ul>
+                                  <li>Choose and order food on an available menu.</li>
+                                  <li>FETCH and POST data to a realtime database.</li>
+                                </ul>
+                                </>;
+const porjectTwoMainFeatures = <>An application follows Google Keep concept but is much more simpler.<br/>
+                                  Main features:
+                                <ul>
+                                  <li>Add/Remove notes.</li>
+                                  <li>Automatic expansion.</li>
+                                  <li>Form validation.</li>
+                                </ul>
+                                </>;
+const porjectThreeInfo = <>A pretty landing page was built with Bootstrap 5. <br/>This is a Challenge by Frontend Mentor.</>;
+const porjectFourInfo = <>A game help to train your memory. <br/> 
+                          Players attempt to match Simon by choosing the pads in the proper sequence.</>;
+
+
 export const projectsData = [
   {
     id: nanoid(),
     img: 'React restaurant.jpeg',
     title: 'React restaurant',
-    info: 'A food order app built by Reactjs. Main features: Choose and order food on an available menu; FETCH and POST data to a realtime database.',
+    info: projectOneMainFeatures,
     info2: '#functional-based-components, #react-context, #realtime-database',
     url: 'https://react-restaurant-3dd93.firebaseapp.com/',
     repo: 'https://github.com/haunguyen1064/React-restaurant', // if no repo, the button will not show up
@@ -40,17 +61,16 @@ export const projectsData = [
     id: nanoid(),
     img: 'Keeper app.png',
     title: 'A simple to-do app',
-    info: "An application follows Google Keep concept but is much more simpler. Main features: add/remove notes, automatic expansion, form validation.",
+    info: porjectTwoMainFeatures,
     info2: '#functional-based-components, #react-hook, #non-backend',
     url: 'https://keeper-app-ba55f.firebaseapp.com/',
     repo: 'https://github.com/haunguyen1064/Keeper-App', // if no repo, the button will not show up
   },
-  
   {
     id: nanoid(),
     img: 'Huddle.jpg',
     title: 'Huddle landing page',
-    info: 'A pretty landing page was built with Bootstrap 5. This is a Challenge by Frontend Mentor.',
+    info: porjectThreeInfo,
     info2: '#HTML, #CSS, #Bootstrap-5, #responsive-design',
     url: 'https://haunguyen1064.github.io/huddle-landing-page-with-curved-sections-master/',
     repo: 'https://github.com/haunguyen1064/huddle-landing-page-with-curved-sections-master', // if no repo, the button will not show up
@@ -59,7 +79,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'Simon game.jpeg',
     title: 'Simon game',
-    info: 'A game help to train your memory. Players attempt to match Simon by choosing the pads in the proper sequence.',
+    info: porjectFourInfo,
     info2: '#HTML, #CSS, #Javascript, #Jquery',
     url: 'https://haunguyen1064.github.io/Simon-game/',
     repo: 'https://github.com/haunguyen1064/Simon-game/tree/master', // if no repo, the button will not show up
