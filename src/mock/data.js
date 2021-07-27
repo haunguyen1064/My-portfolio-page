@@ -21,6 +21,7 @@ export const aboutData = {
   paragraphOne: "Hey! My full name is Nguyễn Thanh Hậu, I was born and grown up in Tây Ninh province and now I've worked at HCMC.",
   paragraphTwo: "I made a career change because I love how technology changes the world such as we can do many things while we're staying at home, how we transfer money, book a car, or streaming media through applications...etc. Technology makes our lives easier!",
   paragraphThree: "Besides technology, I like running as well. This is the best way to reach and break your limitation. It's so great when you set a goal, keep training day by day, overcome the pain and finally achieve your goal. I recommend everyone should do exercise often, do any kind of exercise you want, not only running, you will love it!!!",
+  paragraphFour: "For more detail, please find my resume attached below:",
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
