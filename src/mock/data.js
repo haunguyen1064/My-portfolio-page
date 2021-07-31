@@ -31,7 +31,7 @@ const projectOneMainFeatures = <> A food order app built by Reactjs. <br />
                                   Main features:
                                 <ul>
                                   <li>Choose and order food on an available menu.</li>
-                                  <li>FETCH and POST data to a realtime database.</li>
+                                  <li>GET and POST data to a realtime database.</li>
                                 </ul>
                                 </>;
 const porjectTwoMainFeatures = <>An application follows Google Keep concept but is much more simpler.<br/>
