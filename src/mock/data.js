@@ -12,7 +12,7 @@ export const headData = {
 export const heroData = {
   title: 'Hi, my name is',
   name: 'Hậu',
-  subtitle: "I'm a Fresher web developer",
+  subtitle: "I'm a Fresher Front-end Developer",
   cta: 'Know more',
 };
 
@@ -32,6 +32,7 @@ const projectOneMainFeatures = <> A food order app built by Reactjs. <br />
                                 <ul>
                                   <li>Choose and order food on an available menu.</li>
                                   <li>GET and POST data to a realtime database.</li>
+                                  <li>Search the Order any time by entering Order Code</li>
                                 </ul>
                                 </>;
 const porjectTwoMainFeatures = <>An application follows Google Keep concept but is much more simpler.<br/>
@@ -53,7 +54,7 @@ export const projectsData = [
     img: 'React restaurant.jpeg',
     title: 'React restaurant',
     info: projectOneMainFeatures,
-    info2: '#functional-based-components, #react-context, #realtime-database',
+    info2: '#functional-based-components, #react-context, #realtime-database, #responsive-design',
     url: 'https://react-restaurant-3dd93.firebaseapp.com/',
     repo: 'https://github.com/haunguyen1064/React-restaurant', // if no repo, the button will not show up
   },
